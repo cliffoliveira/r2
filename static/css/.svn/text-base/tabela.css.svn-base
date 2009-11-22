@@ -1,0 +1,85 @@
+/* 
+    Document   : tabela
+    Created on : 09/11/2009, 14:06:05
+    Author     : cliff
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/* Tabela Geral*/
+#tabGeral {
+	width: 100%;
+	border: none;
+}
+#tabGeral th {
+	padding: 0.5em;
+	text-align: left;
+	border-bottom: #b2bfcc solid 1px;
+	font-size: 12px;
+}
+#tabGeral td {
+	padding: 0.5em;
+	border-bottom: #e5e9ee solid 1px;
+}
+#tabGeral a.ordem {
+	font-weight: bold;
+	padding: 1px 4px 1px 4px;
+	color: #FFFFFF;
+	background-color: #426181;
+	text-decoration: none;
+}
+#tabGeral a.ordem:hover {
+	background-color: #990000;
+	text-decoration: none;
+}
+#tabGeral .andamentoData {
+	font-size: 9px;
+	color: #88a0b8;
+}
+#tabGeral a {
+	text-decoration: none;
+	color: #0000FF;
+}
+#tabGeral a:hover {
+	text-decoration: underline;
+}
+
+/* Tabela Detalhes*/
+#tabDetalhes {
+	width: 100%;
+	background-color: #fbfbfb;
+	border: solid 1px #DDDDDD;
+	margin-top: 10px;
+	padding: 1em;
+}
+#tabDetalhes th {
+	padding: 0.8em;
+	text-align: left;
+	border-bottom: #b2bfcc solid 1px;
+	font-size: 12px;
+}
+#tabDetalhes td {
+	padding: 0.8em;
+	border-bottom: #e5e9ee solid 1px;
+}
+#tabDetalhes a.ordem {
+	font-weight: bold;
+	padding: 1px 4px 1px 4px;
+	color: #FFFFFF;
+	background-color: #426181;
+}
+#tabDetalhes a.ordem:hover {
+	background-color: #990000;
+}
+#tabDetalhes a {
+	text-decoration: none;
+	color: #0000FF;
+}
+#tabDetalhes a:hover {
+	text-decoration: underline;
+}

@@ -1,0 +1,181 @@
+/* TYPOGRAPHY *****************************************************/
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  line-height: 1.6; /* Unitless for proper inheritance */
+}
+
+/* This is where you set your desired font size. The line-height
+   and vertical margins are automatically calculated from this.
+
+   You have to add an extra calculation here because of IE, so that
+   all users may resize text manually in their browsers.
+
+   The top one is for IE: The percentage is of 16px (default IE text size)
+   10px is 62.5%, 12px is 75%, 13px is 81.25%, and so forth).
+   The second value is what all other browsers see (the wanted font size). */
+
+body          { font-size: 75%; }   /* IE */
+html > body   { font-size: 12px; }  /* Other browsers */
+
+
+/* HEADINGS *******************************************************/
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2.25em;
+	color: #383838;
+}
+h2 {
+	font-size: 1.75em;
+	color: #383838;
+	line-height: 1.2em;
+	margin-bottom: 12px;
+}
+h3 {
+	font-size: 1.4em;
+	color: #383838;
+}
+h4 { font-size: 1.25em; line-height: 1.25; font-weight: bold; }
+h5 { font-size: 1em; font-weight: bold;  }
+h6 { font-size: 1em; }
+
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span { display: none; }
+
+/* TEXT ELEMENTS **************************************************/
+
+p           	{
+	margin: 0 0 1.4em 0;
+	color: #807f6e;
+}
+p.right			{ text-align: right; }
+p.last      	{ margin-bottom:0; }
+
+ul, ol      	{
+	margin: 0;
+	list-style-type: none;
+	color: #807f6e;
+}
+ul.list     	{
+	list-style-type: disc;
+	padding-left: 30px;
+	margin: 0;
+}
+#content ul {
+	list-style-type: disc;
+	padding-left: 30px;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+ol          	{
+	list-style-type: decimal;
+	padding-left: 30px;
+}
+dl          	{ margin: 1.5em 0; }
+dl dt       	{ font-weight: bold; }
+
+a           	{
+	color: #5893A3;
+	text-decoration: underline;
+	outline: none;
+}
+a:hover     	{
+	color: #151515;
+}
+a.arrow			{ padding: 0 12px 0 0; background: url(../../images/icon_arrow.gif) no-repeat right center; }
+a.arrow:hover 	{ padding: 0 12px 0 0; background: url(../../images/icon_arrowhover.gif) no-repeat right center; }
+
+a.blue			{ color: #0096bd; }
+
+img				{ margin: 0; padding: 0; border: none;}
+blockquote  	{
+	color: #666;
+	font-size: 1.4em;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-right: 0em;
+	margin-bottom: 10px;
+	margin-left: 0em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+strong      	{ font-weight: bold; }
+em          	{ font-style: italic; }
+pre         	{ margin-bottom: 15px; background: #f9f9d4; padding: 0 10px; overflow: auto; }
+code        	{ font: 11px Monaco, monospace; margin: 0; padding: 1px 3px; background: #f9f9d4; }
+abbr			{ border-bottom: 1px dotted #999; cursor: help;}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+  background: #eaeaea;
+  color: #eaeaea;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 0.1em;
+  margin: 0 0 1.4em 0;
+  border: none;
+}
+
+* html hr { margin: 0 0 1.2em 0; } /* IE6 fix */
+
+
+/* TABLES *********************************************************/
+
+#pricing {
+	padding: 0;
+	margin: 0;
+	width: 760px;
+}
+
+caption {
+	width: 550px;
+	font: italic 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: right;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+}
+#featurepanel h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.55em;
+	color: #FFF;
+	line-height: 1.2em;
+	padding-bottom: 10px;
+}
+#featurepanel p {
+	color: #FFF;
+	line-height: 1.8em;
+}
+#subline h1 {
+	font-size: 3.2em;
+	color: #1D5975;
+	margin: 0px;
+	padding-top: 25px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#login {
+	padding: 0;
+	margin: 0;
+}
+.itemtitle .text h2 a {
+	color: #383838;
+	text-decoration: none;
+}
+.itemtitle .text h2 a:hover {
+	color: #5893A3;
+	text-decoration: none;
+}

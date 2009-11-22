@@ -1,0 +1,585 @@
+/* Global Reset From Yahoo *****************************************************/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    background-image: url(http://www.r2internet.com.br/v2/static/images/Logo1.gif);
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* General Display and Body *****************************************************/
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #e1dfc1;
+}
+#container {
+    width: 985px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#header {
+    height: 77px;
+}
+#contentholder {
+    FLOAT: left;
+    WIDTH: 985px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+#content {
+    FLOAT: left;
+    WIDTH: 762px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+#content2 {
+    float: left;
+    margin: 0px;
+    width: 198px;
+    text-align: left;
+    display: block;
+    padding: 0px;
+}
+
+/* Footer Styles *****************************************************/
+
+#break {
+    clear: both;
+    margin: 0px;
+    height: 20px;
+    padding: 0px;
+}
+
+
+/* Logo *****************************************************/
+
+
+#logo {
+    width: 250px;
+    height: 60px;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    background-image: url(http://www.r2internet.com.br/v2/static/images/Logo1.gif);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#logo h1 {
+    color: #FFFFFF;
+    font-size: 2.2em;
+    visibility: hidden;
+}
+
+
+/* Floats *****************************************************/
+
+
+.left {
+    float:left;}
+
+.right {
+    float:right;}
+
+.cleaner {
+    clear:both;
+    height:0px;
+    font-size:0px;}
+
+/* Newsletter Box *****************************************************/
+
+#newsletter .field {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:100%;
+    background-image:url(../images/inputbg.png);
+    background-repeat:no-repeat;
+    border-bottom:1px solid #EBEAE4;
+    border-right:1px solid #EBEAE4;
+    border-left:1px solid #D4D4CF;
+    border-top:1px solid #D4D4CF;
+    color:#929292;
+    height:18px;
+    width:188px;
+    padding:6px 5px 4px 5px;
+    background-position: left top;
+}
+
+#newsletter .left {
+    width:192px;}
+
+#newsletter p {
+    margin:0px 0px 16px 0px}
+
+
+#quoteform {
+    width: 580px;
+}
+
+.innerpad {
+    padding: 20px;
+}
+#backgroundhome {
+    background-image: url(../images/BgHome.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: #EFF0E8;
+}
+#featurepanel {
+    height: 371px;
+    position: relative;
+    width: 985px;
+}
+#backgroundpattern {
+    background-image: url(../images/BgTopPattern.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#backgroundpatternsub {
+    background-image: url(http://www.r2internet.com.br/v2/static/images/BgTopP.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#featurepanel .blurb {
+    float: left;
+    width: 478px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+#featurepanel .screenshot {
+    position: absolute;
+    right: -24px;
+    width: 521px;
+    height: 371px;
+    background-image: url(../images/DialogixScreenShot.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 1px;
+}
+#featurepanel .options {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 85px;
+    width: 485px;
+    padding-top: 30px;
+}
+.collumnblock {
+    FLOAT: left;
+    WIDTH: 230px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.itemtitle h2 {
+    margin: 0px;
+    padding: 0px;
+}
+.itemtitle .text {
+    float: left;
+    width: 160px;
+    padding-top: 5px;
+}
+.itemtitle .textlong {
+    float: left;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.itemtitle {
+    clear: both;
+    height: 70px;
+}
+
+.itemicon {
+    height: 60px;
+    width: 70px;
+    float: left;
+}
+.collumnblockright {
+    FLOAT: left;
+    WIDTH: 203px;
+    margin: 0px;
+    padding: 0px;
+}
+.collumnblock2 {
+    FLOAT: left;
+    WIDTH: 250px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-right: 22px;
+    padding-bottom: 0px;
+    padding-left: 22px;
+}
+.companysquare {
+    float: left;
+    height: 52px;
+    width: 58px;
+    background-image: url(../images/BgCompanySquare.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+.companysquareend {
+    float: left;
+    height: 52px;
+    width: 58px;
+    background-image: url(../images/BgCompanySquare.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+#testimonials {
+    clear: both;
+    padding-top: 3px;
+}
+#twitterbox {
+    width: 198px;
+    background-color: #e6e5cd;
+    background-image: url(../images/BgTwitterboxTop.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#twitterbox .birdy {
+    background-image: url(../images/BgFollowMeBirdy.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    background-color: #EEEFE7;
+}
+#twitterbox .entry {
+
+}
+.birdy a {
+    font-weight: normal;
+}
+#twitterbox .entry p {
+    margin: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    font-style: italic;
+}
+#testimonials p {
+    font-style: italic;
+}
+#footerlow {
+    margin: auto;
+    width: 985px;
+    clear: both;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 10px;
+    fload:rigth;
+}
+#footerlow p {
+    color: #59584f;
+
+
+}
+
+#footerlow #newsletter {
+    float: left;
+    width: 488px;
+}
+#footerlow #navigateto {
+    float: left;
+    width: 250px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+#footerlow #credits {
+    float: left;
+    width: 202px;
+}
+.listbox {
+    width: 105px;
+    float: left;
+    padding-right: 20px;
+}
+.buttontryitfree {
+    display: block;
+    width: 161px;
+    background-image: url(../images/ButtonTryitFREE.jpg);
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: left;
+    margin-top: 0px;
+    margin-right: 14px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+A.buttontryitfree:hover {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(../images/ButtonTryitFREE.jpg);
+}
+.buttontakeatour {
+    display: block;
+    width: 161px;
+    background-image: url(../images/ButtonTakeATour.jpg);
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: left;
+    margin-top: 0px;
+    margin-right: 14px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+A.buttontakeatour:hover {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(../images/ButtonTakeATour.jpg);
+}
+.buttonsignuplarge {
+    display: block;
+    width: 134px;
+    background-image: url(../images/ButtonSignUpLarge.jpg);
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: left;
+    margin: 0px;
+}
+A.buttonsignuplarge:hover {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(../images/ButtonSignUpLarge.jpg);
+}
+.buttonsignupsml {
+    display: block;
+    width: 79px;
+    background-image: url(../images/ButtonSignUpSml.jpg);
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+A.buttonsignupsml:hover {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.buttonloginsml {
+    display: block;
+    width: 70px;
+    background-image: url(../images/ButtonLoginSml.jpg);
+    height: 34px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    float: right;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+A.buttonloginsml:hover {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#userbuttons {
+    float: right;
+    width: 200px;
+    padding-top: 20px;
+}
+#subline {
+    height: 100px;
+    position: relative;
+    width: 985px;
+}
+#backgroundsub {
+    background-image: url(../images/BgSubpage.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: #EFF0E8;
+}
+
+
+#content .mainlist ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.mainlist ul li {
+    background-image: url(../images/BulletDark.gif);
+    background-position: left 10px;
+    margin: 0px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E6E5CD;
+}
+#newuserbox {
+    float: left;
+    width: 350px;
+    padding-left: 25px;
+}
+.signupsimple {
+    margin-left: 8px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    margin-top: 5px;
+    padding: 0px;
+}
+.pricingsimple {
+    margin-left: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    margin-top: 5px;
+    padding: 0px;
+}
+.featurescrbox {
+    float: left;
+    width: 320px;
+}
+.scrboxtext {
+    float: left;
+    width: 440px;
+}
+#content .featureitem {
+    float: left;
+    padding-bottom: 40px;
+    clear: both;
+    width: 760px;
+}
+
+
+
+.influencersegment .titlerow {
+    height: 35px;
+    background-color: #f2f2e9;
+    background-image: url(../images/TableTitleRow.gif);
+    background-repeat: repeat-x;
+    background-position: center top;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+.influencersegment .itemrow {
+    background-color: #FFF;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #E5E5D5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.influencersegment .headerrow h2 {
+    line-height: 2.2em;
+}
+.influencersegment .titlerow p {
+    line-height: 2.7em;
+}
+.influencersegment .itemrow p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 2em;
+}
+.influencersegment table {
+    margin: 0px;
+    padding: 0px;
+}
+.influencersegment p {
+    margin: 0px;
+    padding: 0px;
+}
+.influencersegment .endrow {
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 10px;
+    background-image: url(../images/TableEndRowInfl.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.influencersegment {
+    padding-bottom: 25px;
+    width: 722px;
+}
+.influencersegment .headerrow {
+    height: 42px;
+    background-color: #e2e2cf;
+    background-image: url(../images/TableHeaderRowInfl.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.quoteboxtop {
+    padding-right: 20px;
+    clear: both;
+    padding-bottom: 35px;
+}
+.quoteboxtop .icon {
+    float: left;
+    width: 135px;
+}

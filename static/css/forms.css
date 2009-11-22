@@ -1,0 +1,153 @@
+fieldset {
+	border: 1px solid #D5D4BE;
+	padding: 5px 20px 14px 20px;
+	margin: 3px 0px 20px 0px;
+}
+legend {
+	margin-left: -10px;
+	font-weight: normal;
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.55em;
+	text-transform: lowercase;
+}
+legend span {
+	font-weight: normal;
+}
+fieldset p { margin: 0.6em 0; }
+fieldset label { float:left; width: 30%; font-weight: bold; }
+fieldset label span {
+	color: #666;
+	font-weight: normal;
+}
+fieldset .smTxt { font-size: 0.8em; color: #666; }
+fieldset input {
+	width: 370px;
+	border: 1px solid #D5D4BE;
+	color: #807f6e;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 9px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+	padding-left: 7px;
+}
+fieldset .top { margin: 1.4em 0 0.6em 0; }
+fieldset input:focus {
+	border: 1px solid #333;
+	color: #333;
+}
+
+.commentBox {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 370px;
+	font-size: 13px;
+	border: 1px solid #D5D4BE;
+	background-color: #FFFFFF;
+	color: #807f6e;
+	padding-top: 9px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+	padding-left: 7px;
+}
+
+
+#addB { margin-top: 20px; }
+.submitB { float: right; }
+
+.hide { display: none; }
+.show { display: block; }
+fieldset textarea:focus {
+	border: 1px solid #666;
+	color: #333;
+}
+#loginbox {
+	width: 375px;
+	float: left;
+	background-image: url(../images/BgRightBoxRepeat.jpg);
+	background-repeat: repeat-y;
+	background-position: right top;
+}
+#logintable {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#logintable tr td {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 5px;
+	padding-right: 8px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#username {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #d5d4be;
+	width: 200px;
+	color: #807f6e;
+	padding-top: 9px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+	padding-left: 7px;
+}
+#pwd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #d5d4be;
+	width: 200px;
+	color: #807f6e;
+	padding-top: 9px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+	padding-left: 7px;
+}
+
+.signupform {
+	margin: 0px;
+	padding: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.signupform tr td {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.signupform input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #d5d4be;
+	width: 200px;
+	color: #807f6e;
+	padding-top: 9px;
+	padding-right: 7px;
+	padding-bottom: 9px;
+	padding-left: 7px;
+}
+#country {
+	width: 372px;
+}
+#newslettertable #email {
+	color: #59584f;
+	padding: 8px;
+}
+#newslettertable tr td {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

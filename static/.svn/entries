@@ -1,0 +1,37 @@
+9
+
+dir
+14
+https://svn.kenai.com/svn/r2internet~subversion/r2internet/static
+https://svn.kenai.com/svn/r2internet~subversion
+
+
+
+2009-11-09T18:08:16.142625Z
+14
+cliffoliveira
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9bd1c8d5-be02-c9fa-ee34-fbee2dfe11fd
+
+images
+dir
+
+css
+dir
+
+js
+dir
+
