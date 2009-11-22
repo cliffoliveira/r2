@@ -1,0 +1,139 @@
+9
+
+dir
+11
+https://svn.kenai.com/svn/r2internet~subversion/r2internet/system/application/models
+https://svn.kenai.com/svn/r2internet~subversion
+
+
+
+2009-11-08T22:29:41.227586Z
+2
+cliffoliveira
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9bd1c8d5-be02-c9fa-ee34-fbee2dfe11fd
+
+subgrupos_model.php
+file
+0
+
+
+add
+
+usuarios_model.php
+file
+0
+
+
+add
+
+clientes_tem_financeiros_model.php
+file
+0
+
+
+add
+
+cidades_model.php
+file
+0
+
+
+add
+
+financeiro_model.php
+file
+0
+
+
+add
+
+grupos_model.php
+file
+0
+
+
+add
+
+logradouros_model.php
+file
+0
+
+
+add
+
+bairros_model.php
+file
+0
+
+
+add
+
+usuario_tipo_model.php
+file
+0
+
+
+add
+
+estados_model.php
+file
+0
+
+
+add
+
+index.html
+file
+
+
+
+
+2009-11-09T17:45:32.522301Z
+0227cfd904e99656279202032b98d4a7
+2009-11-08T22:29:41.227586Z
+2
+cliffoliveira
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+114
+
+clientes_model.php
+file
+0
+
+
+add
+
