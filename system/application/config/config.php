@@ -11,7 +11,10 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost/r2internet/";
+/* - configuração local */
+//$config['base_url']	= "http://localhost/r2internet/";
+/* - configuração servidor */
+$config['base_url']	= "http://www.r2internet.com.br/v2/";
 
 /*
 |--------------------------------------------------------------------------
