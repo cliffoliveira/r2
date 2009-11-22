@@ -28,7 +28,7 @@
  </li>
  <li id="kwick_5">
    <a href="#">Cadastre-se
-     <h3>Teste</h3>
+       <h3>Formul&aacute;rio</h3>
   </a>
  </li>
  <li id="kwick_6">

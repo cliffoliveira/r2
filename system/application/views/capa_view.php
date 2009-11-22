@@ -25,7 +25,7 @@
         </script>
 
 
-        <title>Untitled Document</title>
+        <title>R2 Internet</title>
         <style type="text/css">
             <!--
             body  {
@@ -263,32 +263,13 @@
 
             </div>
             <div id="mainContent">
-
-                <p> O Conselho Diretor da Agência Nacional de Telecomunicações (Anatel) deliberou hoje, em sua 544ª reunião, conceder anuências prévias para a transferência de controle da GVT (Global Village Telecom Ltda) para a Telecomunicações de São Paulo S.A. (Telesp) e para a Vivendi S.A.
-
-                    No caso da Vivendi, não houve necessidade de estabelecer condicionamentos, por se tratar de empresa entrante no mercado brasileiro.
-
-                    O ato de anuência prévia referente à Telesp estabelece condicionamentos a fim de  propiciar competição efetiva e impedir a concentração econômica no mercado, entre os quais:
-
-                <p> * A Telesp e a GVT deverão manter autônomas e independentes as suas estruturas administrativas, operacionais, funcionais e comerciais, bem como manter o nível de emprego, operando de forma separada, contábil e financeiramente, preservada a marca GVT, pelo prazo de 5 (cinco) anos a contar da data de concretização da operação. Decorridos 24 meses, a Telesp e a GVT poderão, fundamentadamente, requerer a reavaliação deste condicionamento.
-                    *
-                    A Telesp e a GVT deverão apresentar à Anatel, em seis meses, proposta de solução para a eliminação da sobreposição de outorgas do Serviço Telefônico Fixo Comutado (STFC) e para a devolução de Códigos de Seleção de Prestadora (CSP), cuja implementação deverá ocorrer no prazo de 18 (dezoito) meses da concretização da operação. </p>
-                *
-                A Telesp manterá a neutralidade de sua rede
-                * A Telesp deverá realizar, nos próximos dez anos, investimentos em P&D em valores anuais correspondentes a até  100% do total recolhido ao Fundo para o Desenvolvimento Tecnológico das Telecomunicações (FUNTTEL), respeitado o compromisso mínimo de 50% do total, incondicionalmente, ficando os restantes 50% condicionados à liberação proporcional pelo governo.
-
-                Caso a Telesp adquira a GVT, deverá dar ampla divulgação de que ficam mantidas, para os usuários, as mesmas condições de prestação dos serviços estabelecidas com a GVT.
-
-                Os Atos serão enviados para publicação no Diário Oficial da União.</p>
-
-
+                <?=$mainContent?>
             </div>
             <br class="clearfloat" />
             <div id="footer">
 
-
-
-                <!-- end #footer --></div>
+                <!-- end #footer -->
+            </div>
             <!-- end #container --></div>
     </body>
 </html>
