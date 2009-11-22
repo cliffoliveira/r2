@@ -10,8 +10,8 @@ class Capa extends Controller {
 
     function index() {
         $data['teste']='teste';
-        
-         
+        $data2['op']= 1;
+        $data['menu'] = $this->load->view("menu", $data2 , TRUE);         
         $this->load->view('capa_view', $data);
     }
 }
