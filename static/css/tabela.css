@@ -13,8 +13,9 @@
 
 /* Tabela Geral*/
 #tabGeral {
-	width: 100%;
+	width: 90%;
 	border: none;
+        
 }
 #tabGeral th {
 	padding: 0.5em;
