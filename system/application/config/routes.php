@@ -40,7 +40,7 @@
 |
 */
 
-$route['default_controller'] = "rosto";
+$route['default_controller'] = "capa";
 $route['scaffolding_trigger'] = "";
 
 
