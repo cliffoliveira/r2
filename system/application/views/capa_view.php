@@ -9,7 +9,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-
+        <link href="<?=base_url()?>/static/css/r2.css" rel="stylesheet" type="text/css" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <script type="text/javascript" src="<?=base_url()?>static/js/jquery-1.2.3.js"></script>
         <script type="text/javascript" src="<?=base_url()?>static/js/jquery.easing.1.3.js"></script>
